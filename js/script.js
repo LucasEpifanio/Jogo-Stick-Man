@@ -342,7 +342,7 @@ Array.prototype.last = function () {
   
       // Draw perfect area only if hero did not yet reach the platform
       if (sticks.last().x < x) {
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "#d62100";
         ctx.fillRect(
           x + w / 2 - perfectAreaSize / 2,
           canvasHeight - platformHeight,
@@ -386,7 +386,7 @@ Array.prototype.last = function () {
     ctx.fill();
   
     // Band
-    ctx.fillStyle = "red";
+    ctx.fillStyle = "#d62100";
     ctx.fillRect(-heroWidth / 2 - 1, -12, heroWidth + 2, 4.5);
     ctx.beginPath();
     ctx.moveTo(-9, -14.5);
@@ -439,8 +439,8 @@ Array.prototype.last = function () {
   function drawBackground() {
     // Draw sky
     var gradient = ctx.createLinearGradient(0, 0, 0, window.innerHeight);
-    gradient.addColorStop(0, "#BBD691");
-    gradient.addColorStop(1, "#FEF1E1");
+    gradient.addColorStop(0, "#c7eeff");
+    gradient.addColorStop(1, "#fffee5");
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
   
@@ -478,7 +478,7 @@ Array.prototype.last = function () {
     const treeCrownWidth = 10;
   
     // Draw trunk
-    ctx.fillStyle = "#7D833C";
+    ctx.fillStyle = "#7a5a00";
     ctx.fillRect(
       -treeTrunkWidth / 2,
       -treeTrunkHeight,

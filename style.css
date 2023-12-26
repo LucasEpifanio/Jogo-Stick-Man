@@ -61,15 +61,15 @@ body {
 }
 
 #playButton{
-    width: 100px;
+  width: 100px;
   height: 25px;
   position: absolute;
   border-radius: 10%;
-  color: rgba(255, 255, 255, 0);
+  color: rgb(87, 235, 109);
   background-color: rgba(39, 216, 23, 0);
   border: none;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   cursor: pointer;
 }
